@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostControlador;
 
 Route::get('/', [PostControlador::class, 'index']);
+Route::post('/', [PostControlador::class, 'store']);
