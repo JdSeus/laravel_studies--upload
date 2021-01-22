@@ -17,3 +17,4 @@ use App\Http\Controllers\PostControlador;
 
 Route::get('/', [PostControlador::class, 'index']);
 Route::post('/', [PostControlador::class, 'store']);
+Route::delete('/{id}', [PostControlador::class, 'destroy']);
